@@ -1,0 +1,5 @@
+
+Basic differentiations of the Collection framework:
+
+
+image::https://static.javatpoint.com/images/java-collection-hierarchy.png[]

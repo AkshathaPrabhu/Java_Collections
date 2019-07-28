@@ -39,17 +39,18 @@ The Collection framework in Java has:
     List <data-type> list4 = new Stack();
 
 
+
 *Some of the methods defined in this framework are:*
 
-1. add(E e)	It is used to insert an element in this collection.
-2. addAll(Collection<? extends E> c)	It is used to insert the specified collection elements in the invoking collection.
-3. remove(Object element)	It is used to delete an element from the collection.
-4. removeAll(Collection<?> c)	It is used to delete all the elements of the specified collection from the invoking collection.
-5. removeIf(Predicate<? super E> filter)	It is used to delete all the elements of the collection that satisfy the specified predicate.
-6. retainAll(Collection<?> c)
-7. size()	It returns the total number of elements in the collection.
-8. public void clear()	It removes the total number of elements from the collection.
-9. public boolean contains(Object element)	It is used to search an element.
+1. add(E e)	- inserts an element
+2. addAll(Collection<? extends E> c) - inserts the specified collection elements in the invoking collection.
+3. remove(Object element) - deletes an element from the collection.
+4. removeAll(Collection<?> c) - deletes all the elements of the specified collection.
+5. removeIf(Predicate<? super E> filter) - delete only those elements of the collection that satisfy the specified predicate.
+6. retainAll(Collection<?> c)  - deletes all other elements except the ones specified to retain
+7. size() - tell the total number of elements
+8. clear() - removes all elements form a collection
+9. contains(Object element) - used to search an element.
 
 10. public Iterator iterator()	It returns an iterator.
 11.	public Object[] toArray()	It converts collection into array.

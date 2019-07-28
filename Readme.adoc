@@ -3,3 +3,63 @@ Basic differentiations of the Collection framework:
 
 
 image::https://static.javatpoint.com/images/java-collection-hierarchy.png[]
+
+
+pic credit: https://www.javatpoint.com/collections-in-javal
+
+
+
+
+=== About Collections:
+1. Collection means a single group of objects
+2. Collection in Java is a framework that provides an architecture to store and manipulate the group of object
+3. You can perform on a data all operations such as
+- searching,
+- sorting,
+- insertion,
+- manipulation,
+- and deletion.
+
+The Collection framework in Java has:
+- Interfaces and its implementations, i.e., classes
+- Algorithm
+
+*java.util* package contains all the classes and interfaces for the Collection framework.
+
+
+== LIST INTERFACE
+- child interface of Collection interface
+- we can store ordered group of values
+- can have duplicate values
+- List interface is implemented by the classes ArrayList, LinkedList, Vector, and Stack.
+
+    List <data-type> list1= new ArrayList();
+    List <data-type> list2 = new LinkedList();
+    List <data-type> list3 = new Vector();
+    List <data-type> list4 = new Stack();
+
+
+*Some of the methods defined in this framework are:*
+
+1. add(E e)	It is used to insert an element in this collection.
+2. addAll(Collection<? extends E> c)	It is used to insert the specified collection elements in the invoking collection.
+3. remove(Object element)	It is used to delete an element from the collection.
+4. removeAll(Collection<?> c)	It is used to delete all the elements of the specified collection from the invoking collection.
+5. removeIf(Predicate<? super E> filter)	It is used to delete all the elements of the collection that satisfy the specified predicate.
+6. retainAll(Collection<?> c)
+7. size()	It returns the total number of elements in the collection.
+8. public void clear()	It removes the total number of elements from the collection.
+9. public boolean contains(Object element)	It is used to search an element.
+
+10. public Iterator iterator()	It returns an iterator.
+11.	public Object[] toArray()	It converts collection into array.
+12.	public <T> T[]	toArray(T[] a)	It converts collection into array. Here, the runtime type of the returned array is that of the specified array.
+13.	public boolean isEmpty()	It checks if collection is empty.
+14.	default Stream<E> parallelStream()	It returns a possibly parallel Stream with the collection as its source.
+15.	default Stream<E> stream()	It returns a sequential Stream with the collection as its source.
+16.	default Spliterator<E> spliterator()	It generates a Spliterator over the specified elements in the collection.
+17.	public boolean equals(Object element)	It matches two collections.
+18.	public int hashCode()	It returns the hash code number of the collection.
+
+
+

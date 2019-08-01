@@ -1,12 +1,14 @@
+
+
+package main;
+
+import java.util.*;
+
 /**
  * Arraylist uses a dynamic array to store the elements.
  * The ArrayList class maintains the insertion order and is non-synchronized.
  * The elements stored in the ArrayList class can be randomly accessed.
  */
-
-package main;
-
-import java.util.*;
 
 public class a_1_ArrayList {
 
@@ -19,6 +21,10 @@ public class a_1_ArrayList {
 
         System.out.println(names);
 
+        //to replace a value in the arraylist
+        names.set(2,"HEY");
+        System.out.println(names);
+
         System.out.println("_________________________________________________");
 
         // Displaying elements  -- using indexed for loop
@@ -26,11 +32,15 @@ public class a_1_ArrayList {
             System.out.println(names.get(i));
         }
 
+
+
         System.out.println("_________________________________________________");
 
         // with predicate i.e .contains()
         boolean aksha = names.contains("Akshatha");
         System.out.println("Does the list contain Akshatha in it : " + aksha);
+
+
 
         // Displaying elements  -- using Iterator()
         System.out.println("_________________________________________________");
@@ -40,6 +50,8 @@ public class a_1_ArrayList {
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
+
+
 
         System.out.println("_________________________________________________");
         //To sort a collection in reverse Order  -- can be used only on numbers or chars
@@ -51,20 +63,27 @@ public class a_1_ArrayList {
         Collections.sort(names, Collections.reverseOrder());
         System.out.println(names);
 
-        System.out.println("_________________________________________________");
+
+
+        System.out.println("==================================================");
         List<Object> numbers = new ArrayList<>();
         numbers.add(4);
         numbers.add("Aksha");
         numbers.add(7.5f);
         numbers.add("Java");
 
+
+
         // Displaying elements  - foreach
         for (Object number : numbers) {
             System.out.println(number);
         }
 
+
+
         System.out.println("_________________________________________________");
         System.out.println(numbers);
+
         //Remove element from the specified index
         numbers.remove(1);
         System.out.println(numbers);
@@ -73,14 +92,13 @@ public class a_1_ArrayList {
         numbers.remove("Java");
         System.out.println(numbers);
 
-        //Add element at the given index
+        //Add element at the any index
         numbers.add(2, 5);
         System.out.println(numbers);
 
         //find the position of given element
-        System.out.println(numbers.indexOf(4));
+        System.out.println("Position of num. 4 is : " +numbers.indexOf(4));
 
-        System.out.println("_________________________________________________");
         //To swap two elements in a Collection
         System.out.println("Swapping positions of two elements in a list");
         Collections.swap(numbers, 0, 2);

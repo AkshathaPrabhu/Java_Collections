@@ -6,6 +6,8 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
+ * LinkedList implements LIST and DEQUE
+ *
  * LinkedList is a linear data structure.
  * However LinkedList elements are not stored in contiguous locations like arrays;
  * they are linked with each other using POINTERS.

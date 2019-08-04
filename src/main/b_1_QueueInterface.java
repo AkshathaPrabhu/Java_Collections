@@ -30,7 +30,7 @@ public class b_1_QueueInterface {
          * REMOVES the first element from the queue and gives that as the o/p
          */
         System.out.println("Removed element: " + q.remove());
-        System.out.println(q);
+        System.out.println(q + "\n");
 
         /*
          * element() method - this returns the head of the
@@ -38,18 +38,21 @@ public class b_1_QueueInterface {
          * Head is the first element of Queue
          */
         System.out.println("Head: " + q.element());
+        System.out.println(q + "\n");
 
         /*
          * poll() method
          * - same as .remove() method but it returns null if the Queue is empty
          */
         System.out.println("poll(): " + q.poll());
+        System.out.println(q + "\n");
 
         /*
          * peek() method - it works same as element() method,
          * however it returns null if the Queue is empty
          */
         System.out.println("peek(): " + q.peek());
+        System.out.println(q + "\n");
 
         //Again displaying the elements of Queue
         System.out.println("Elements in Queue:" + q);

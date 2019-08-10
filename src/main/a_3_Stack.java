@@ -16,6 +16,8 @@ public class a_3_Stack {
 
 
     public static void main(String args[]) {
+
+
         Stack<String> stack = new Stack<>();
         stack.push("Himalaya");             // .push()   -- adds and element to the stack
         stack.push("Vicks");

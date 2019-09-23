@@ -15,7 +15,7 @@ import java.util.List;
  * <p>
  * Each element of the LinkedList has the reference(address/pointer) to the next element of the LinkedList
  * <p>
- * hence each element in the LinkedList is called the MODE.
+ * hence each element in the LinkedList is called the NODE.
  */
 
 public class a_2_LinkedList {

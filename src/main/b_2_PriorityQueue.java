@@ -24,6 +24,23 @@ public class b_2_PriorityQueue {
 
         System.out.println(pq);
 
+
+        PriorityQueue<Integer> number = new PriorityQueue<>();
+        number.add(100);
+        number.add(500);
+        number.add(250);
+        number.add(13);
+        number.add(200);
+        number.add(345);
+        System.out.println(number);
+
+        number.poll();
+        System.out.println(number);
+        System.out.println(number);
+
+        number.element();
+        number.remove();
+        number.peek();
     }
 
 

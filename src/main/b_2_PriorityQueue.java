@@ -4,7 +4,8 @@ import java.util.Iterator;
 import java.util.PriorityQueue;
 
 /**
- *
+ * A PriorityQueue is what is called a binary heap. It is only ordered/sorted in the sense that the first element is the least.
+ * In other word, it only cares about what is in the front of the queue, the rest are "ordered" when needed.
  */
 public class b_2_PriorityQueue {
     public static void main(String[] args) {
@@ -19,8 +20,9 @@ public class b_2_PriorityQueue {
 
         Iterator iterator = pq.iterator();
 
-        while (iterator.hasNext())
+        while (iterator.hasNext()) {
             System.out.println(iterator.next());
+        }
 
         System.out.println(pq);
 

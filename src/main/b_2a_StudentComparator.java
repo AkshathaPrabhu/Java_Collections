@@ -2,7 +2,7 @@ package main;
 
 import java.util.Comparator;
 
-public class StudentComparator implements Comparator<Student> {
+public class b_2a_StudentComparator implements Comparator<Student> {
 
     @Override
     public int compare(Student std1, Student std2) {

@@ -64,3 +64,8 @@ The Collection framework in Java has:
 
 
 
+For Hashmap working:
+https://www.journaldev.com/21095/java-equals-hashcode
+http://coding-geek.com/how-does-a-hashmap-work-in-java/
+
+
